@@ -19,8 +19,8 @@ public class SysPageController {
 		return "sys/" + url + ".html";
 	}
 
-	@RequestMapping("generator/{url}.html")
+	@RequestMapping("liveUpdate/{url}.html")
 	public String generator(@PathVariable("url") String url){
-		return "generator/" + url + ".html";
+		return "liveUpdate/" + url + ".html";
 	}
 }
